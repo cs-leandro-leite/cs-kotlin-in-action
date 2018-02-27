@@ -42,3 +42,6 @@
         * 3.3.3 Utility functions as extensions: [src](src/main/kotlin/ch3/extensions.kt) [test](src/test/kotlin/ch3/extensions.kt)
         * 3.3.4 No overriding for extension functions: [src](src/main/kotlin/ch3/extensions.kt) [test](src/test/kotlin/ch3/extensions.kt)
         * 3.3.5 Extension properties: [src](src/main/kotlin/ch3/extensions.kt) [test](src/test/kotlin/ch3/extensions.kt)
+    * 3.4 Working with collections: varargs, infix calls, and library support
+        * 3.4.1 Extending the Java Collections API
+        * [3.4.2 Varargs: functions that accept an arbitrary number of arguments](src/test/kotlin/ch3/vararg.kt)
