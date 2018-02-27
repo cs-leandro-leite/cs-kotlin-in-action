@@ -35,4 +35,10 @@
     * 3.2 Making functions easier to call
        * [3.2.1 Named arguments](src/test/kotlin/ch3/easierToCall.kt)
        * [3.2.2 Default parameter values](src/test/kotlin/ch3/easierToCall.kt)
-       * 3.2.3 Getting rid of static utility classes: top-level functions and properties: [src](src/main/kotlin/ch3/strings.kt)[test](src/test/kotlin/ch3/noStaticUtils.kt)
+       * 3.2.3 Getting rid of static utility classes: top-level functions and properties: [src](src/main/kotlin/ch3/strings.kt) [test](src/test/kotlin/ch3/noStaticUtils.kt)
+    * 3.3 Adding methods to other people’s classes: extension functions and properties: [src](src/main/kotlin/ch3/extensions.kt) [test](src/test/kotlin/ch3/extensions.kt)
+        * 3.3.1 Imports and extension functions: [src](src/main/kotlin/ch3/extensions.kt) [test](src/test/kotlin/ch3/extensions.kt)
+        * 3.3.2 Calling extension functions from Java
+        * 3.3.3 Utility functions as extensions: [src](src/main/kotlin/ch3/extensions.kt) [test](src/test/kotlin/ch3/extensions.kt)
+        * 3.3.4 No overriding for extension functions: [src](src/main/kotlin/ch3/extensions.kt) [test](src/test/kotlin/ch3/extensions.kt)
+        * 3.3.5 Extension properties: [src](src/main/kotlin/ch3/extensions.kt) [test](src/test/kotlin/ch3/extensions.kt)
