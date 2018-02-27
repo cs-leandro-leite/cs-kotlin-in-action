@@ -35,3 +35,4 @@
     * 3.2 Making functions easier to call
        * [3.2.1 Named arguments](src/test/kotlin/ch3/easierToCall.kt)
        * [3.2.2 Default parameter values](src/test/kotlin/ch3/easierToCall.kt)
+       * 3.2.3 Getting rid of static utility classes: top-level functions and properties: [src](src/main/kotlin/ch3/strings.kt)[test](src/test/kotlin/ch3/noStaticUtils.kt)
