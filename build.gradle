@@ -1,11 +1,13 @@
 buildscript {
     ext.kotlin_version = '1.2.10'
+    ext.junitGradlePluginVersion = '1.1.0'
 
     repositories {
         mavenCentral()
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.junit.platform:junit-platform-gradle-plugin:$junitGradlePluginVersion"
     }
 }
 
@@ -13,13 +15,17 @@ group 'br.concrete.leandro'
 version '1.0'
 
 apply plugin: 'kotlin'
+apply plugin: 'org.junit.platform.gradle.plugin'
 
 repositories {
     mavenCentral()
 }
 
+final junitVersion = '4.12'
+
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    testCompile "junit:junit:$junitVersion"
 }
 
 compileKotlin {
