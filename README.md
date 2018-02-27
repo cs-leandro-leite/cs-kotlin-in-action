@@ -46,3 +46,7 @@
         * 3.4.1 Extending the Java Collections API
         * [3.4.2 Varargs: functions that accept an arbitrary number of arguments](src/test/kotlin/ch3/vararg.kt)
         * [3.4.3 Working with pairs: infix calls and destructuring declarations](src/test/kotlin/ch3/infix.kt)
+    * 3.5 Working with strings and regular expressions
+        * [3.5.1 Splitting strings](src/test/kotlin/ch3/stringsRegex.kt)
+        * [3.5.2 Regular expressions and triple-quoted strings](src/test/kotlin/ch3/stringsRegex.kt)
+        * [3.5.3 Multiline triple-quoted strings](src/test/kotlin/ch3/stringsRegex.kt)
