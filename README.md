@@ -45,3 +45,4 @@
     * 3.4 Working with collections: varargs, infix calls, and library support
         * 3.4.1 Extending the Java Collections API
         * [3.4.2 Varargs: functions that accept an arbitrary number of arguments](src/test/kotlin/ch3/vararg.kt)
+        * [3.4.3 Working with pairs: infix calls and destructuring declarations](src/test/kotlin/ch3/infix.kt)
