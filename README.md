@@ -30,3 +30,6 @@
    * [2.5 Exceptions in Kotlin](src/test/kotlin/ch2/exceptions.kt)
        * [2.5.1 “try”, “catch”, and “finally”](src/test/kotlin/ch2/exceptions.kt)
        * [2.5.2 “try” as an expression](src/test/kotlin/ch2/exceptions.kt)
+* 3 Defining and calling functions
+    * [3.1 Creating collections in Kotlin](src/test/kotlin/ch3/collections.kt)
+    

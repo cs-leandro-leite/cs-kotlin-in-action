@@ -46,7 +46,7 @@ class VariableTest{
     }
 
     @Test
-    fun `Variaveis val e objetos`(){ //FIXME
+    fun `Variaveis val e objetos`(){
         /*
             Note that, even though a val reference is itself immutable and can’t be changed, the
             object that it points to may be mutable.
@@ -55,6 +55,6 @@ class VariableTest{
 
         linguagens.add("Kotlin")
 
-        assertEquals(arrayListOf("Java, Kotlin"), linguagens)
+        assertTrue(arrayListOf("Java", "Kotlin") == linguagens)
     }
 }
