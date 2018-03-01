@@ -50,3 +50,4 @@
         * [3.5.1 Splitting strings](src/test/kotlin/ch3/stringsRegex.kt)
         * [3.5.2 Regular expressions and triple-quoted strings](src/test/kotlin/ch3/stringsRegex.kt)
         * [3.5.3 Multiline triple-quoted strings](src/test/kotlin/ch3/stringsRegex.kt)
+        * [3.6 Making your code tidy: local functions and extensions](src/test/kotlin/ch3/localFunctions.kt)
