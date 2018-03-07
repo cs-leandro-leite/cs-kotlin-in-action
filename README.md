@@ -51,3 +51,12 @@
         * [3.5.2 Regular expressions and triple-quoted strings](src/test/kotlin/ch3/stringsRegex.kt)
         * [3.5.3 Multiline triple-quoted strings](src/test/kotlin/ch3/stringsRegex.kt)
         * [3.6 Making your code tidy: local functions and extensions](src/test/kotlin/ch3/localFunctions.kt)
+* 4 Classes, objects, and interfaces
+    * 4.1 Defining class hierarchies
+        * [4.1.1 Interfaces in Kotlin](src/test/kotlin/ch4/interfaces.kt)
+        * [4.1.2 Open, final, and abstract modifiers: final by default](src/main/kotlin/ch4/modifiers.kt)
+        * [4.1.3 Visibility modifiers: public by default](src/main/kotlin/ch4/modifiers.kt)
+        * [4.1.4 Inner and nested classes: nested by default](src/main/kotlin/ch4/modifiers.kt)
+        * [4.1.5 Sealed classes: defining restricted class hierarchies](src/main/kotlin/ch4/modifiers.kt)
+        
+    * 4.2 Declaring a class with nontrivial constructors or properties
