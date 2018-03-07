@@ -29,7 +29,12 @@ class InterfaceTest {
         assertEquals("I'm focusable!", view.showOff())
     }
 
+    @Test
+    fun `Implementar uma interface com propriedade abstrata`(){
+        val user = SubscribingUser("lcleite@gmail.com")
 
+        assertEquals("lcleite", user.nickname)
+    }
 }
 
 interface Clickable {
@@ -56,4 +61,17 @@ class View : Clickable, Focusable{
         return super<Focusable>.showOff()
     }
 
+}
+
+/*** 4.2.3 ***/
+
+interface AbstractUser {
+    val nickname: String
+}
+
+class PrivateUser(override val nickname: String) : AbstractUser
+
+class SubscribingUser(val email: String) : AbstractUser {
+    override val nickname: String
+        get() = email.substringBefore('@')
 }

@@ -58,5 +58,9 @@
         * [4.1.3 Visibility modifiers: public by default](src/main/kotlin/ch4/modifiers.kt)
         * [4.1.4 Inner and nested classes: nested by default](src/main/kotlin/ch4/modifiers.kt)
         * [4.1.5 Sealed classes: defining restricted class hierarchies](src/main/kotlin/ch4/modifiers.kt)
-        
     * 4.2 Declaring a class with nontrivial constructors or properties
+        * [4.2.1 Initializing classes: primary constructor and initializer blocks](src/test/kotlin/ch4/declaring.kt)
+        * [4.2.2 Secondary constructors: initializing the superclass in different ways](src/main/kotlin/ch4/declaring.kt)
+        * [4.2.3 Implementing properties declared in interfaces](src/test/kotlin/ch4/declaring.kt)
+        * [4.2.4 Accessing a backing field from a getter or setter](src/main/kotlin/ch4/modifiers.kt)
+    

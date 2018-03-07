@@ -91,3 +91,17 @@ fun eval(e: Expr): Int =
             is Expr.Sum -> eval(e.right) + eval(e.left)
 //            is Expr.Sub -> eval(e.right) - eval(e.left)
         }
+
+/*** 4.2.5 ***/
+
+// The accessor’s visibility by default is the same as the property’s. But you can change
+// this if you need to, by putting a visibility modifier before the get or set keyword.
+
+class LengthCounter {
+    var counter: Int = 0
+        private set // You can’t change this property outside of the class.
+
+    fun addWord(word: String) {
+        counter += word.length
+    }
+}
